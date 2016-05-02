@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>jQuery demo</title>
+ </head>
+ <body>
+    
+    <div id="stuff">
+        <div id="cat">a</div>
+        <div id="dog">b</div>
+        <div id="elephant">c</div>
+        <div id="rabbit">d</div>
+        <div id="frog">e</div>  
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   
+    <script type="text/javascript">
+    document.getElementById('stuff').onclick = function( e ){
+        alert( e.target.id );
+    };
+    
+   </script>
+ </body>
+</html>
