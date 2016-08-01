@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $.ajax({
+        url: 'http://www.w3schools.com/website/customers_mysql.php',
+        dataType: 'json',
+        success: function(retorno) {
+
+        },
+        async: false //Deixa as variáveis da função como vaiável global
+    });
+
+    </script>
+</body>
+</html>
